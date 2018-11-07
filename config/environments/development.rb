@@ -34,7 +34,7 @@ Rails.application.configure do
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = false
   config.action_mailer.delivery_method = :test 
-  config.action_mailer.default_url_options = { :host => 'https://6b1e39d97b214a02bca690be70a3edba.vfs.cloud9.eu-west-1.amazonaws.com'}
+  config.action_mailer.default_url_options = { :host => 'http://localhost:3000/'}
   
 
   config.action_mailer.perform_caching = false
